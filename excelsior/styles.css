@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #0d0d0d;
+}
+
+.space-grotesk-hero {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10pt;
+    font-style: italic;
+    
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #0d0d0d;
+    font-size: larger;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.space-grotesk-hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: #0d0d0d;
+}
